@@ -4,7 +4,7 @@ int main(void)
     int i, n, j;
     printf("画一个直角在右上角的直角三角形\n");
     printf("请输入短边长n：");
-    scanf("%d,&n");
+    scanf("%d", &n);
 
     for (i = n; i >= 0; i--)
     {

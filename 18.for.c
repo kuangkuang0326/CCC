@@ -4,7 +4,7 @@ int main(void)
     int i, n, j;
     printf("画一个金字塔");
     printf("金字塔层数n：");
-    scanf("%d,&n");
+    scanf("%d", &n);
 
     for (i = 1; i <= n; i++)
     {
